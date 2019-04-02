@@ -1,6 +1,6 @@
 <!--
 /*
- * Copyright (c) Codice Foundation
+ * Copyright (c) Connexta, LLC Foundation
  *
  * This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either
  * version 3 of the License, or any later version. 
@@ -11,12 +11,7 @@
  */
 -->
 
-<img src="http://www.codice.org/ddf/images/ddf_logo.png"/>
-
-# [Distributed Data Framework \(DDF\)](http://ddf.codice.org/)
-[![CLA assistant](https://cla-assistant.io/readme/badge/codice/ddf)](https://cla-assistant.io/codice/ddf)
-
-
+# [Distributed Data Framework \(DDF\)](https://connexta.com/solutions.html)
 
 Distributed Data Framework (DDF) is an open source, modular integration framework. 
 
@@ -87,6 +82,7 @@ Distributed Data Framework (DDF) is an open source, modular integration framewor
     - Modular development supports multi-organizational and multi-regional teams
  
 ## Building
+
 ### What you need ###
 * [Install J2SE 8 SDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html).
 * Make sure that your JAVA\_HOME environment variable is set to the newly installed JDK location, and that your PATH includes %JAVA\_HOME%\bin (Windows) or $JAVA\_HOME$/bin (\*NIX).
@@ -104,8 +100,8 @@ Distributed Data Framework (DDF) is an open source, modular integration framewor
 In order to run through a full build, be sure to have a clone for the ddf repository and optionally the ddf-support repository (NOTE: daily snapshots are deployed so downloading and building each repo may not be necessary since those artifacts will be retrieved.):
 
 ```
-git clone git://github.com/codice/ddf.git
-git clone git://github.com/codice/ddf-support.git (Optional)
+git clone git://github.com/connexta/ddf.git
+git clone git://github.com/connexta/ddf-support.git (Optional)
 ```
 Change to the root directory of the cloned ddf repository. Run the following command:
 
@@ -126,32 +122,12 @@ You can run the formatter with the command:
 mvn fmt:format
 ```
 
-
-For additional information about building DDF, see [Building DDF](https://codice.atlassian.net/wiki/spaces/DDF/pages/70986756).
-
 ## How to Run
 * Unzip the distribution. 
 * Run the executable at <distribution_home>/bin/ddf.bat or <distribution_home>/bin/ddf
 
-## Additional information
-The [wiki](https://codice.atlassian.net/wiki/display/DDF) is the right place to find any documentation about DDF.
-
-Discussions can be found on the [Announcements forum](http://groups.google.com/group/ddf-announcements),  [Users forum](http://groups.google.com/group/ddf-users), and  [Developers forum](http://groups.google.com/group/ddf-developers).
-
-For a DDF binary distribution, please read  the release notes on the wiki for a list of supported and unsupported features.
-
-If you find any issues with DDF, please submit reports with [JIRA](https://codice.atlassian.net/projects/DDF).
-
-For information on contributing to DDF see [Contributing to Codice](http://www.codice.org/contributing).
-
-The DDF Website also contains additional information at [http://ddf.codice.org](http://ddf.codice.org).
-
-Many thanks for using DDF.
-
--- The Codice DDF Development Team
-
 ## Copyright / License
-Copyright (c) Codice Foundation
+Copyright (c) Connexta, LLC
  
 This is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License 
 as published by the Free Software Foundation, either version 3 of the License, or any later version. 
