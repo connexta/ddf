@@ -58,7 +58,7 @@
         <snapshots.repository.url/>
         <reports.repository.url/>
         <!-- Must MANUALLY update this if the ddf/support project's version changes -->
-        <ddf.support.version>2.3.16</ddf.support.version>
+        <ddf.support.version>2.3.17</ddf.support.version>
         <!-- Must MANUALLY update this if the codice-maven project's version changes -->
         <codice-maven.version>0.2</codice-maven.version>
         <!-- Must MANUALLY update this if the codice-test project's version changes -->
